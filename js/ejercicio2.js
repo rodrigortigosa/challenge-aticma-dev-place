@@ -4,7 +4,6 @@ function sumarUno(arr) {
 
 function mostrarNuevoArray(arr) {
   let nuevo = sumarUno(arr);
-  console.log(nuevo);
   let divNuevoArray = document.getElementById("div-nuevo-array");
   divNuevoArray.innerHTML = "";
 
